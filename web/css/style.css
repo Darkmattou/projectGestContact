@@ -1,0 +1,9 @@
+.logo{
+	padding: 25px;
+}
+.container{
+	border-bottom: solid black 5px;
+}
+.row{
+	min-height: 100px;
+}
