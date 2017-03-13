@@ -4,13 +4,13 @@
 	<meta charset="utf-8">
 
 	<!-- bootstrap css -->
-	<link href="web/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../web/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- custom css -->
-	<link rel="stylesheet" href="web/css/style.css">
+	<link rel="stylesheet" href="../web/css/style.css">
 
 	<!-- fonts -->
-	<link href="web/css/font-awesome.min.css" rel="stylesheet"">
+	<link href="../web/css/font-awesome.min.css" rel="stylesheet"">
 	
 	<title>Institut IMIE Le Mans</title>
 </head>
@@ -21,7 +21,7 @@
 
 			<div class="row">
 				<div class="col-lg-10">
-					<img class="logo" src="web/img/logo-imie_1.png">
+					<img class="logo" src="../web/img/logo-imie_1.png">
 				</div>
 				<div class="col-lg-2 telHeader">
 					<span><i class="fa fa-phone fa-custom" aria-hidden="true"></i>02 28 01 37 54</span>		
@@ -40,6 +40,13 @@
 			</div>	
 
 		</header>
+
+		<div class="content">
+
+			<?php include($vueAAfficher); ?>
+
+		</div>
+
 
 		<footer>
 			<div class="row">

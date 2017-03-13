@@ -21,7 +21,7 @@ body {
 header {
 	min-height: 150px;
 }
-.menu li {
+.menuVille li {
 	float: left;
 	width: 10%;
 	text-align: center;
@@ -31,7 +31,7 @@ header {
 	color: white;
 	font-size: 14px;
 }
-.menu>li>span {
+.menuVille>li>span {
 	text-transform: uppercase;
 }
 .row li {
@@ -57,9 +57,10 @@ header {
 	background-color: #58bf94;
 	cursor: pointer;
 }
-.menu {
+.menuVille {
 	min-height: 30px;
 	background-color: #686868;
 	margin: 0px;
 	padding: 0px;
+	display: 
 }
