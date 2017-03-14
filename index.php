@@ -2,5 +2,4 @@
 
 	include_once("layouts/layout.php");
 
-
-	?>
+?>
