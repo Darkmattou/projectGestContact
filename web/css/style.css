@@ -1,3 +1,7 @@
+/*css pageVisiteur*/
+
+
+/* HEADER */
 body {
 	background-color: #f3f2f0;
 }
@@ -63,4 +67,12 @@ header {
 	margin: 0px;
 	padding: 0px;
 	display: 
+}
+
+/* page visiteur */
+
+
+.titre_formulaire{
+	border:5px;
+
 }
