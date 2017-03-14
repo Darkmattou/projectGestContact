@@ -46,7 +46,6 @@
 		<div class="content">
 
 		 <?php 
-		 include($vueAAfficher); 
 		 ?> 										<!-- Dépend de comment on appelle la variable qui affiche les vues -->
 
 		</div>
@@ -60,5 +59,7 @@
 
 	</div>
 		
+
+	<script src="../web/js/scriptIndex.js"></script>
 </body>
 </html>

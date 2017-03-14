@@ -64,3 +64,22 @@ header {
 	padding: 0px;
 	display: 
 }
+
+/* INDEX */
+
+.boutonIndex {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 100px;
+	height: 50px;
+	width: 200px;
+	box-shadow: 5px 5px 5px black;
+	color: white;
+	border-radius: 10px;
+}
+.bleu {
+	background-color: #6495ED;
+}
+.rouge {
+	background-color: #FF6347;
+}
