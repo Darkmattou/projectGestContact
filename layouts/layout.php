@@ -28,22 +28,26 @@
 				</div>			
 			</div>
 			<div class="row">
-				<ul class="menuVille">
-					<li class="color00b6de"><span>Nantes</span></li>
-					<li class="colorfdb515"><span>Angers</span></li>
-					<li class="colored3126"><span>Rennes</span></li>
-					<li class="coloref7a35"><span>Laval</span></li>
-					<li class="color58bf94"><span>Le Mans</span></li>
-					<li class="color00b6de"><span>Caen</span></li>
-					<li class="colorfdb515"><span>Paris</span></li>
-				</ul>																			
+				<div class="col-lg-12">	
+					<ul class="menuVille">
+						<li class="color00b6de"><span>Nantes</span></li>
+						<li class="colorfdb515"><span>Angers</span></li>
+						<li class="colored3126"><span>Rennes</span></li>
+						<li class="coloref7a35"><span>Laval</span></li>
+						<li class="color58bf94"><span>Le Mans</span></li>
+						<li class="color00b6de"><span>Caen</span></li>
+						<li class="colorfdb515"><span>Paris</span></li>
+					</ul>	
+				</div>																		
 			</div>	
 
 		</header>
 
 		<div class="content">
 
-		<?php include($vueAAfficher); ?> <!-- Dépend de comment on appelle la variable qui affiche les vues -->
+		 <?php 
+		 include($vueAAfficher); 
+		 ?> 										<!-- Dépend de comment on appelle la variable qui affiche les vues -->
 
 		</div>
 
