@@ -73,6 +73,20 @@ header {
 
 
 .titre_formulaire{
-	border:5px;
+	border:5px solid red;
+	text-align: center;
+	color: white;
+	background-color: red;
+	border-radius: 10px;
+}
+.cadreForm{
+	border:2px solid black;
+	border-radius: 10px;
+	min-height: 432px;
+	min-width: 891px;
+}
 
+.progress-bar{
+	margin-left: 50px;
+	padding-bottom: 50px;
 }
