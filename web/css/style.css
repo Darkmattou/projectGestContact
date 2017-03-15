@@ -1,6 +1,3 @@
-/*css pageVisiteur*/
-
-
 /* HEADER */
 body {
 	background-color: #f3f2f0;
@@ -70,15 +67,15 @@ header {
 }
 
 /* page visiteur */
-
-
+/*CANDIDATURE*/
 .titre_formulaire{
 	border:5px solid red;
 	text-align: center;
 	color: white;
-	background-color: red;
+	background-color: #ed3126;
 	border-radius: 10px;
 }
+/*cadre du formulaire*/
 .cadreForm{
 	border:2px solid black;
 	border-radius: 10px;
@@ -86,7 +83,88 @@ header {
 	min-width: 891px;
 }
 
+/*bar de progression*/
 .progress-bar{
-	margin-left: 50px;
-	padding-bottom: 50px;
+	margin-left: 300px;
+	margin-top: 20px;
 }
+/* Titre CAMPUS*/
+.campus{
+	border:5px solid #00b6de;
+	text-align: center;
+	color: white;
+	background-color: #00b6de;
+}
+/*FORMULAIRE CAMPUS*/
+.buttons{
+	font-size: 14px;
+	text-align: center;
+	padding-top: 15px;
+}	
+
+label{
+	text-transform: uppercase;
+	padding-left: 10px;
+	font-weight:bold;
+}
+
+.buttons input{
+	margin-left: 50px;
+}
+
+/*Titre formation*/
+.information{
+	border:5px solid #00b6de;
+	text-align: center;
+	color: white;
+	background-color: #00b6de;
+}
+
+/* les 3 cadres des infos*/
+.info1{
+	text-align: center;
+	font-weight:bold;	
+}
+
+.info2{
+	margin-right:20px;
+	font-weight:bold;
+	margin-top:30px;
+}
+
+
+.info3{
+	text-align: center;
+	font-weight:bold;
+	margin-top: 30px;
+	margin-left: 350px;
+}
+/* boutton suivant */
+.suivant {
+	border-radius:12px 0 12px 0;
+	background: #00b6de;
+	border:none;
+	color:#fff;
+	font:bold 12px Verdana;
+	padding:6px 0 6px 0;
+	margin-left: 1000px;
+}
+/* INDEX */
+
+.boutonIndex {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 0px;
+	height: 50px;
+	width: 200px;
+	box-shadow: 5px 5px 5px black;
+	color: white;
+	border-radius: 10px;
+}
+.bleu {
+	background-color: #6495ED;
+}
+.rouge {
+	background-color: #FF6347;
+}
+ 

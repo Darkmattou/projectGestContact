@@ -65,5 +65,7 @@
 
 	</div>
 		
+
+	<script src="../web/js/scriptIndex.js"></script>
 </body>
 </html>
