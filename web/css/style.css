@@ -66,89 +66,6 @@ header {
 	display: 
 }
 
-/* page visiteur */
-/*CANDIDATURE*/
-.titre_formulaire{
-	border:5px solid red;
-	text-align: center;
-	color: white;
-	background-color: #ed3126;
-	border-radius: 10px;
-}
-/*cadre du formulaire*/
-.cadreForm{
-	border:2px solid black;
-	border-radius: 10px;
-	min-height: 432px;
-	min-width: 891px;
-}
-
-/*bar de progression*/
-.progress-bar{
-	margin-left: 300px;
-	margin-top: 20px;
-}
-/* Titre CAMPUS*/
-.campus{
-	border:5px solid #00b6de;
-	text-align: center;
-	color: white;
-	background-color: #00b6de;
-}
-/*FORMULAIRE CAMPUS*/
-.buttons{
-	font-size: 14px;
-	text-align: center;
-	padding-top: 15px;
-}	
-
-label{
-	text-transform: uppercase;
-	padding-left: 10px;
-	font-weight:bold;
-}
-
-.buttons input{
-	margin-left: 50px;
-}
-
-/*Titre formation*/
-.information{
-	border:5px solid #00b6de;
-	text-align: center;
-	color: white;
-	background-color: #00b6de;
-}
-
-/* les 3 cadres des infos*/
-.info1{
-	text-align: center;
-	font-weight:bold;	
-}
-
-.info2{
-	margin-right:20px;
-	font-weight:bold;
-	margin-top:30px;
-}
-
-
-.info3{
-	text-align: center;
-	font-weight:bold;
-	margin-top: 30px;
-	margin-left: 350px;
-}
-/* boutton suivant */
-.suivant {
-	border-radius:12px 0 12px 0;
-	background: #00b6de;
-	border:none;
-	color:#fff;
-	font:bold 12px Verdana;
-	padding:6px 0 6px 0;
-	margin-left: 1000px;
-}
 /* INDEX */
 
 .boutonIndex {
@@ -168,3 +85,34 @@ label{
 	background-color: #FF6347;
 }
  
+/* PAGE VISITEUR */
+
+.progressbar,h2 {
+	width: 50%;
+	margin-left: 25%;
+	text-align: center;
+	padding-top: 10px;
+}
+.cadre_formulaire {
+	border: solid black 2px;
+	border-radius: 15px;
+}
+.slider {
+	width: 1170px;
+	height: 390px;
+	overflow: hidden;
+}
+.slider li {
+	width: 1170px;
+	height: 390px;
+	float: left;
+}
+.slider ul {
+  list-style-type:none;
+  padding: 0;
+  margin: 0;
+  transition: all 0.25s;
+}
+.slider .row {
+	max-width: 1170px;
+}
