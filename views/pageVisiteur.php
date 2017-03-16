@@ -122,7 +122,56 @@
                 </li>
 
                 <li>
-                    
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2 class="formation">Formation</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 formation1">
+                            <form>
+                                <input type="checkbox" name="">
+                                <label>IT Start</label>
+                                <input type="checkbox" name="">
+                                <label>DIGISTART</label>
+                                <input type="checkbox" name="">
+                                <label>BTS SIO</label>
+                                <br>  
+                                <input type="checkbox" name="">
+                                <label>Developpeur logiciel</label>
+                                <input type="checkbox" name="">
+                                <label>Technicien supérieur en support informatique</label>
+                                <input type="checkbox" name="">
+                                <label>Responsable infrastructure système et réseaux</label>
+                                <input type="checkbox" name="">
+                                <label>WEB MASTER & DESIGNER</label>
+                                <br>  
+                                <input type="checkbox" name="">
+                                <label>Chef de projet en conception de système informatique</label>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <h2 class="imie">je connais l'imie</h2>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>    
+                    <div class="row">
+                        <div class="col-lg-12 formation1">
+                            <form>
+                                <label>comment ?</label>
+                                <input type="text" name="">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <button class="precedent1">Précédent</button>
+                        </div>
+                         <div class="col-lg-6">
+                            <button class="terminer">Terminer</button>
+                        </div>
+                    </div>
                 </li>
             </ul>
         </div>

@@ -92,7 +92,7 @@ header {
 	text-align: center;
 	color: white;
 	background-color: #ed3126;
-	border-radius: 10px;
+	border-radius: 20px;
 }
 .progressbar,h2 {
 	width: 50%;
@@ -127,11 +127,11 @@ header {
 }
 
 .campus{
-	border:5px solid #00b6de;
+	/*border:5px solid #00b6de;*/
 	text-align: center;
 	color: white;
 	background-color: #00b6de;
-	min-height:20px;
+	min-height:10px;
 }
 .buttons{
 	font-size: 14px;
@@ -149,7 +149,7 @@ label{
 	margin-left: 40px;
 }
 .information{
-	border:5px solid #00b6de;
+	/*border:5px solid #00b6de;*/	
 	text-align: center;
 	color: white;
 	background-color: #00b6de;
@@ -175,7 +175,7 @@ label{
 }
 
 .situation{
-	border:5px solid #00b6de;
+	/*border:5px solid #00b6de;*/
 	text-align: center;
 	color: white;
 	background-color: #00b6de;
@@ -193,7 +193,7 @@ label{
 	margin-left: 40px;
 }
 .reorientation{
-	border:5px solid #00b6de;
+	/*border:5px solid #00b6de;*/
 	text-align: center;
 	color: white;
 	background-color: #00b6de;
@@ -230,4 +230,56 @@ label{
 	padding:10px 10px 12px 12px;
 	margin-left: 20%;
 	margin-top: 15%;
+}
+.formation{
+	/*border:5px solid #00b6de;*/
+	text-align: center;
+	color: white;
+	background-color: #00b6de;
+	min-height:20px;
+}
+.formation1{
+	text-align: center;
+	font-weight:bold;
+	margin-right:20px;
+	font-weight:bold;
+	margin-top:20px;
+	padding-top: 0px;
+}
+.formation1 input{
+	margin-left: 40px;
+}
+.imie{
+	/*border:5px solid #00b6de;*/
+	text-align: center;
+	color: white;
+	background-color: #00b6de;
+	min-height:20px;
+}
+
+.imie1{
+	text-align: center;
+	font-weight:bold;
+	font-weight:bold;
+	margin-top:20px;
+}
+.precedent1{
+	border-radius:12px 0 12px 0;
+	background: #ed3126;
+	border:1px solid black;
+	color:#fff;
+	font:bold 14px Verdana;
+	padding:10px 10px 12px 12px;
+	margin-left: 20%;
+
+}
+
+.terminer{
+	border-radius:12px 0 12px 0;
+	background: #58bf94;
+	border:1px solid black;
+	color:#fff;
+	font:bold 14px Verdana;
+	padding:10px 10px 12px 12px;
+	margin-left: 80%;
 }
