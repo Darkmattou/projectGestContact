@@ -68,6 +68,8 @@ header {
 
 /* INDEX (controleur index.php)*/
 
+/* INDEX */
+
 .boutonIndex {
 	width: 50%;
 	margin-left: 25%;
@@ -84,9 +86,16 @@ header {
 .rouge {
 	background-color: #FF6347;
 }
- 
 /* PAGE VISITEUR (views/pageVisiteur.php)*/
 
+/* PAGE VISITEUR */
+.titre{
+	border:5px solid red;
+	text-align: center;
+	color: white;
+	background-color: #ed3126;
+	border-radius: 20px;
+}
 .progressbar,h2 {
 	width: 70%;
 	margin-left: 15%;
@@ -94,8 +103,10 @@ header {
 	padding-top: 10px;
 }
 .cadre_formulaire {
-	border: solid black 2px;
-	border-radius: 15px;
+	border:2px solid black;
+	border-radius: 10px;
+	min-height: 432px;
+	min-width: 891px;
 }
 .slider {
 	width: 1170px;
@@ -116,7 +127,6 @@ header {
 .slider .row {
 	max-width: 1170px;
 }
-
 /* partie formulaire campus */
 .titleBlue{
 	border: blue solid 2px;
@@ -246,4 +256,161 @@ header {
 
 .pad {
 	padding-top: 100px;
+}
+.campus{
+	/*border:5px solid #00b6de;*/
+	text-align: center;
+	color: white;
+	background-color: #00b6de;
+	min-height:10px;
+}
+.buttons{
+	font-size: 14px;
+	text-align: center;
+	padding-top: 15px;
+}	
+
+label{
+	text-transform: uppercase;
+	padding-left: 10px;
+	font-weight:bold;
+}
+
+.buttons input{
+	margin-left: 40px;
+}
+.information{
+	/*border:5px solid #00b6de;*/	
+	text-align: center;
+	color: white;
+	background-color: #00b6de;
+	min-height:20px;
+}
+.info{
+	text-align: center;
+	font-weight:bold;
+	margin-right:20px;
+	font-weight:bold;
+	margin-top:30px;
+	padding-top: 15px;
+}
+.suivant {
+	border-radius:12px 0 12px 0;
+	background: #00b6de;
+	border:1px solid black;
+	color:#fff;
+	font:bold 14px Verdana;
+	padding:10px 10px 12px 12px;
+	margin-left: 90%;
+	margin-top: 3%;
+}
+
+.situation{
+	/*border:5px solid #00b6de;*/
+	text-align: center;
+	color: white;
+	background-color: #00b6de;
+	min-height:20px;
+}
+.situation1{
+	text-transform: uppercase;
+	padding-left: 10px;
+	font-weight:bold;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 15px;
+}
+.situation1 input{
+	margin-left: 40px;
+}
+.reorientation{
+	/*border:5px solid #00b6de;*/
+	text-align: center;
+	color: white;
+	background-color: #00b6de;
+	min-height:20px;
+}
+.reorientation1{
+	text-transform: uppercase;
+	padding-left: 10px;
+	font-weight:bold;
+	font-size: 14px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.reorientation1 input{
+	margin-left: 40px;
+}
+.suivant1{
+	border-radius:12px 0 12px 0;
+	background: #00b6de;
+	border:1px solid black;
+	color:#fff;
+	font:bold 14px Verdana;
+	padding:10px 10px 12px 12px;
+	margin-left: 80%;
+	margin-top: 15%;
+}
+.precedent{
+	border-radius:12px 0 12px 0;
+	background: #ed3126;
+	border:1px solid black;
+	color:#fff;
+	font:bold 14px Verdana;
+	padding:10px 10px 12px 12px;
+	margin-left: 20%;
+	margin-top: 15%;
+}
+.formation{
+	/*border:5px solid #00b6de;*/
+	text-align: center;
+	color: white;
+	background-color: #00b6de;
+	min-height:20px;
+}
+.formation1{
+	text-align: center;
+	font-weight:bold;
+	margin-right:20px;
+	font-weight:bold;
+	margin-top:20px;
+	padding-top: 0px;
+}
+.formation1 input{
+	margin-left: 40px;
+}
+.imie{
+	/*border:5px solid #00b6de;*/
+	text-align: center;
+	color: white;
+	background-color: #00b6de;
+	min-height:20px;
+}
+
+.imie1{
+	text-align: center;
+	font-weight:bold;
+	font-weight:bold;
+	margin-top:20px;
+}
+.precedent1{
+	border-radius:12px 0 12px 0;
+	background: #ed3126;
+	border:1px solid black;
+	color:#fff;
+	font:bold 14px Verdana;
+	padding:10px 10px 12px 12px;
+	margin-left: 20%;
+
+}
+
+.terminer{
+	border-radius:12px 0 12px 0;
+	background: #58bf94;
+	border:1px solid black;
+	color:#fff;
+	font:bold 14px Verdana;
+	padding:10px 10px 12px 12px;
+	margin-left: 80%;
 }
