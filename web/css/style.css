@@ -1,4 +1,4 @@
-/* HEADER */
+/* HEADER (contenu dans le layout)*/
 body {
 	background-color: #f3f2f0;
 }
@@ -66,7 +66,7 @@ header {
 	display: 
 }
 
-/* INDEX */
+/* INDEX (controleur index.php)*/
 
 .boutonIndex {
 	width: 50%;
@@ -85,11 +85,11 @@ header {
 	background-color: #FF6347;
 }
  
-/* PAGE VISITEUR */
+/* PAGE VISITEUR (views/pageVisiteur.php)*/
 
 .progressbar,h2 {
-	width: 50%;
-	margin-left: 25%;
+	width: 70%;
+	margin-left: 15%;
 	text-align: center;
 	padding-top: 10px;
 }
@@ -115,4 +115,135 @@ header {
 }
 .slider .row {
 	max-width: 1170px;
+}
+
+/* partie formulaire campus */
+.titleBlue{
+	border: blue solid 2px;
+	width: 50%;
+	margin-left: 25%;
+	padding: 5px;
+	border-radius: 15px;
+	background-color: #00b6de;
+	color: white;
+}
+.titleRed {
+	border: red solid 2px;
+	width: 50%;
+	margin-left: 25%;
+	padding: 5px;
+	border-radius: 15px;
+	background-color: #ED3737;
+	color: white;
+}
+.selectCampus {
+	text-transform: uppercase;
+	width: 70%;
+	margin-left: 15%;
+	padding-top: 15px;
+}
+.selectCampus input {
+	margin-left: 5%;
+}
+
+/* partie formulaire informations */
+.selectInfo {
+	padding-top: 15px;
+}
+.selectInfo1 {
+	width: 90%;
+	margin-left: 5%;
+}
+.selectInfo1 label {
+	margin-left: 5%;
+}
+.selectInfo2 {
+	width: 90%;
+	margin-left: 5%;
+}
+.selectInfo2 label {
+	margin-left: 5%;
+}
+.selectInfo3 {
+	margin-left: 8%;
+}
+.selectInfo .row:first-child {
+	padding-bottom: 20px;
+}
+.selectInfo .row:last-child {
+	padding-top: 20px;
+}
+
+/* boutons "suivant" et précédent */
+
+.suivant {
+	height: 45px;
+	width: 80px;
+	margin-right: 5%;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #00b6de;
+	box-shadow: 3px 3px 4px black;
+	color: white;
+	transition: all 0.5s;
+}
+.suivant:hover{
+	height: 45px;
+	width: 80px;
+	margin-right: 5%;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #00b6de;
+	box-shadow: none;
+	opacity: 0.8;
+	color: white;
+}
+
+.precedent {
+	height: 45px;
+	width: 80px;
+	margin-left: 5%;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #2C9C33;
+	box-shadow: 3px 3px 4px black;
+	color: white;
+	transition: all 0.5s;
+}
+.precedent:hover {
+	height: 45px;
+	width: 80px;
+	margin-left: 5%;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #2C9C33;
+	box-shadow: none;
+	color: white;
+	transition: all 0.5s;
+}
+
+/* partie formualire situation */
+
+.selectSituation {
+	padding-top: 15px;
+	width: 40%;
+	margin-left: 30%;
+}
+.selectSituation input {
+	margin-left: 5%;
+}
+
+/* partie réorientaion */
+
+.selectReorientation {
+	padding-top: 15px;
+	width: 20%;
+	margin-left: 40%;
+}
+.selectReorientation input {
+	margin-left: 25%;
+}
+
+.pad {
+	padding-top: 100px;
 }

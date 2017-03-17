@@ -45,13 +45,18 @@
 			</div>	
 
 		</header>
-
+					<!-- la vue à afficher dépend de comment on appelle la variable qui affiche les 
+					vues qui sera géré plus tard dans le controleur index.php -->
 		<div class="content">
-
+			<div class="row">	
+				<div class="col-lg-12 ">
+					<a href="views/pageVisiteur.php"><button class="boutonIndex rouge">Candidater</button></a>
+				</div>
+			</div>
 		 <?php 
-		 $vueAAfficher="../views/pageVisiteur.php";
-		 include($vueAAfficher); 
-		 ?> 										<!-- Dépend de comment on appelle la variable qui affiche les vues -->
+		 $vueAAfficher="../index.php";  /* pour l'instant on défini la vue à afficher directement ici le temps du code de la vue visiteur */
+		 include($vueAAfficher); 	
+		 ?> 										
 
 		</div>
 

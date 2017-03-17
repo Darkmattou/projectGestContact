@@ -2,7 +2,8 @@ $('.login-input').on('focus', function() {
   $('.login').addClass('focused');
 });
 
-$('.login').on('submit', function(e) {
-  e.preventDefault();
+$('.login').on('submit', function() {
   $('.login').removeClass('focused').addClass('loading');
 });
+
+
