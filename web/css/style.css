@@ -12,8 +12,6 @@ body {
 .telHeader>span>.fa-custom {
 	margin-right: 10px;
 	font-size: 25px;
-	height: 25px;
-	width: 25px;
 	border: solid #C4C4C4 1px;
 	border-radius: 50%;
 	color: white;
@@ -61,8 +59,8 @@ header {
 .menuVille {
 	min-height: 30px;
 	background-color: #686868;
-	margin: 0px;
-	padding: 0px;
+	margin: 0%;
+	padding: 0%;
 	display: 
 }
 
@@ -89,12 +87,18 @@ header {
 /* PAGE VISITEUR (views/pageVisiteur.php)*/
 
 /* PAGE VISITEUR */
+body{
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+}
 .titre{
 	border:5px solid red;
 	text-align: center;
 	color: white;
 	background-color: #ed3126;
 	border-radius: 20px;
+	font-size: 45px;
 }
 .progressbar,h2 {
 	width: 70%;
@@ -105,8 +109,6 @@ header {
 .cadre_formulaire {
 	border:2px solid black;
 	border-radius: 10px;
-	min-height: 432px;
-	min-width: 891px;
 }
 .slider {
 	width: 1170px;
