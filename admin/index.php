@@ -1,10 +1,17 @@
 <?php
 session_start();
 include_once('../library/PDOFactory.php');
+<<<<<<< HEAD
 include_once('../models/entities/User.php');
 include_once('../models/repositories/userRepository.php');
 include_once('../models/repositories/ClientRepository.php');
 include_once('../models/entities/personne.php');
+=======
+include_once('../models/entities/personne.php');
+include_once('../models/entities/User.php');
+include_once('../models/repositories/clientRepository.php');
+include_once('../models/repositories/userRepository.php');
+>>>>>>> 424e9c4057f089234f8a1a699a419e8f193192ac
 
 
 $pdo = PDOFactory::getMysqlConnection();

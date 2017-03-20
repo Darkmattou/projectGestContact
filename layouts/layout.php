@@ -48,8 +48,18 @@
 					<!-- la vue à afficher dépend de comment on appelle la variable qui affiche les 
 					vues qui sera géré plus tard dans le controleur index.php -->
 		<div class="content">
+<<<<<<< HEAD
 		 <?php 
 		 $vueAAfficher="../views/pageVisiteur.php";  /* pour l'instant on défini la vue à afficher directement ici le temps du code de la vue visiteur */
+=======
+			<div class="row">	
+				<div class="col-lg-12 ">
+					<a href="views/pageVisiteur.php"><button class="boutonIndex rouge">Candidater</button></a>
+				</div>
+			</div>
+		 <?php 
+		 $vueAAfficher="../index.php";  /* pour l'instant on défini la vue à afficher directement ici le temps du code de la vue visiteur */
+>>>>>>> 424e9c4057f089234f8a1a699a419e8f193192ac
 		 include($vueAAfficher); 	
 		 ?> 										
 
@@ -57,13 +67,26 @@
 
 
 		<footer>
-			<!--<div class="row">
-				<div class="content">
-    <a class="lien-accroche" href="https://imie-ecole-informatique.fr/dates-de-rentrees.html" title=""><img alt="" class="img-accroche" longdesc="https://imie-ecole-informatique.fr/www.imie-ecole-informatique.fr/dates-de-rentrees.html" src="https://imie-ecole-informatique.fr/sites/default/files/imce/accroches/dates_de_rentrees.png" style="height: 260px; width: 380px;"></a>
-<p class="styleh1 red">prochaines rentrées de NOS campus :</p>
-<p>LE DÉTAIL DES PROCHAINES DATES DE RENTRÉES DES FORMATIONS DISPENSÉES À L'IMIE SONT DISPONIBLES</p>
-<br><a class="btn" href="https://imie-ecole-informatique.fr/dates-de-rentrees.html">En savoir plus</a><br>  </div>
-			</div>-->
+		<img alt="" class="img-accroche" longdesc="http://imie-ecole-informatique.fr/www.imie-ecole-informatique.fr/dates-de-rentrees.html" src="http://imie-ecole-informatique.fr/sites/default/files/imce/accroches/dates_de_rentrees.png" style="height: 260px; width: 380px;">
+			
+			<img alt="Les ecoles d'informatique sont share ?" class="img-accroche" src="http://imie-ecole-informatique.fr/sites/default/files/imce/accroches/accroche-ecole-share.jpg" style="width: 380px; height: 260px;">
+				
+			<div class ="row">
+				<div class="footer2">
+					<a href="http://imie-ecole-informatique.fr/mentions-legales.html">Mentions légales</a>
+					|
+					<a href="http://imie-ecole-informatique.fr/campus/nantes.html">Contact</a>
+					|
+					<a href="http://imie-ecole-informatique.fr/sitemap">Plan du site</a>
+					|
+					<a href="https://www.ymagonline.net/IMIE44">Accès étudiant</a>
+					|
+				</div>
+			</div>
+			
+			
+
+
 		</footer>
 
 	</div>

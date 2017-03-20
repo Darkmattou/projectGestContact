@@ -1,6 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 class Personne 
+=======
+abstract class Personne 
+>>>>>>> 424e9c4057f089234f8a1a699a419e8f193192ac
 {
 	protected $id;
 	protected $Nom;
@@ -13,11 +17,14 @@ class Personne
 	protected $etabOrigine;
 	protected $diplomeObtenu;
 	protected $dispo;
+<<<<<<< HEAD
 	protected $dateForm;
 	protected $sourceInfo;
 	protected $nomSite;
 	protected $nomStatut;
 	protected $nomFormation;
+=======
+>>>>>>> 424e9c4057f089234f8a1a699a419e8f193192ac
 
 	public function getId() {
 		return $this->id;
@@ -84,7 +91,11 @@ class Personne
 	}
 
 	public function getDiplomeObtenu() {
+<<<<<<< HEAD
 		return $this->diplomeObtenu;
+=======
+		return $this->etabOrigine;
+>>>>>>> 424e9c4057f089234f8a1a699a419e8f193192ac
 	}
 
 	public function setDiplomeObtenu($diplomeObtenu) {
@@ -92,12 +103,17 @@ class Personne
 	}
 
 	public function getDispo() {
+<<<<<<< HEAD
 		return $this->dispo;
+=======
+		return $this->etabOrigine;
+>>>>>>> 424e9c4057f089234f8a1a699a419e8f193192ac
 	}
 
 	public function setDispo($dispo) {
 		$this->dispo = $dispo;
 	}
+<<<<<<< HEAD
 	public function getDateForm() {
 		return $this->dateForm;
 	}
@@ -134,6 +150,8 @@ class Personne
 	public function setNomFormation($nomFormation) {
 		$this->nomFormation = $nomFormation;
 	}
+=======
+>>>>>>> 424e9c4057f089234f8a1a699a419e8f193192ac
 }
 
 ?>

@@ -1,6 +1,15 @@
+<?php 
+    include_once("../layouts/layout.php");
+?>
+
 <div class="row">
     <div class="col-lg-12">
+<<<<<<< HEAD
         <h2 class="titleRed">Candidature pour les retardés</h2>
+=======
+        <h2 class="titleRed">Candidature</h2>
+        <h2 class="titre">Candidature</h2>
+>>>>>>> 424e9c4057f089234f8a1a699a419e8f193192ac
     </div>                       
 </div>
 
@@ -32,6 +41,7 @@
                             <div class="col-lg-12">
                                 <h2 class="titleBlue">Campus</h2>
                             </div>
+<<<<<<< HEAD
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
@@ -91,6 +101,116 @@
                                 <button class="suivant pull-right">Suivant</button>
                             </div>
                         </div>
+=======
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <form class="selectCampus" action="">
+                                    <input type="checkbox" name="">
+                                    <label>Nantes</label>
+                                    <input type="checkbox" name="">
+                                    <label>Angers</label>
+                                    <input type="checkbox" name="">
+                                    <label>Rennes</label>
+                                    <input type="checkbox" name="">
+                                    <label>Laval</label>
+                                    <input type="checkbox" name="">
+                                    <label>Le Mans</label>
+                                    <input type="checkbox" name="">
+                                    <label>Caen</label>                                   
+                                    <input type="checkbox" name="">
+                                    <label>Paris</label>
+                                </form>
+                            </div>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2 class="campus">Campus</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 buttons">
+                            <form action="">
+                                <input type="checkbox" name="">
+                                <label>Nantes</label>
+                                <input type="checkbox" name="">
+                                <label>Angers</label>
+                                <input type="checkbox" name="">
+                                <label>Rennes</label>
+                                <input type="checkbox" name="">
+                                <label>Laval</label>
+                                <input type="checkbox" name="">
+                                <label>Le Mans</label>
+                                <input type="checkbox" name="">
+                                <label>Caen</label>
+                                <input type="checkbox" name="">
+                                <label>Paris</label>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2 class="information">Information</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 info">
+                            <form>
+                                <label>Nom</label>
+                                <input type="text" name="">
+                                <label>Prenom</label>
+                                <input type="text" name="">
+                                <label>Date de naissance</label>
+                                <input type="text" name="">
+                                <label>Ville</label>
+                                <input type="text" name="">
+                                <label>Téléphone</label>
+                                <input type="text" name="">
+                                <label>Code postal</label>
+                                <input type="text" name="">
+                                <label>E-mail</label>
+                                <input type="text" name="">
+                            </form>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h2 class="titleBlue">Informations</h2>
+                            </div>
+                        </div>
+                        <form action="" class="selectInfo">
+                            <div class="row">
+                                <div class="col-lg-12 selectInfo1">
+                                    <label>Nom : </label>
+                                    <input type="text" name="">
+                                    <label>Prenom : </label>
+                                    <input type="text" name="">
+                                    <label>Date de naissance : </label>
+                                    <input type="text" name="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 selectInfo2">
+                                    <label>Ville :</label>
+                                    <input type="text" name="">
+                                    <label>Téléphone : </label>
+                                    <input type="text" name="">
+                                    <label>Code postal : </label>
+                                    <input type="text" name="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 selectInfo3">
+                                    <label>E-mail : </label>
+                                    <input type="text" name="">
+                                </div>
+                            </div>
+                        </form>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <button class="suivant pull-right">Suivant</button>
+                            </div>
+                        </div>
+>>>>>>> 424e9c4057f089234f8a1a699a419e8f193192ac
                     </li>
                              <!-- deuxième li -->
                     <li>
@@ -98,6 +218,7 @@
                             <div class="col-lg-12">
                                 <h2 class="titleBlue">Situation</h2>
                             </div>
+<<<<<<< HEAD
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
@@ -126,11 +247,76 @@
                                 </form>
                             </div>
                         </div>
+=======
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <form action="" class="selectSituation">
+                                    <input type="checkbox" name="">
+                                    <label>En formation</label>                                    
+                                    <input type="checkbox" name="">
+                                    <label>Salarié</label>
+                                    <input type="checkbox" name="">
+                                    <label>Demandeur d'emploi</label>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h2 class="titleBlue">Réorientation</h2>
+                            </div>
+                    </div>
+                </li>
+
+                <li>
+                   <div class="row">
+                        <div class="col-lg-12">
+                            <h2 class ="situation">Situation</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <form class="situation1">
+                                <input type="checkbox" name="">
+                                <label>En formation</label>
+                                <input type="checkbox" name="">
+                                <label>Salarié</label>
+                                <input type="checkbox" name="">
+                                <label>Demandeur d'emploi</label>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2 class="reorientation">Réorientation</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 reorientation1">
+                            <form>
+                                <input type="checkbox" name="">
+                                <label>Oui</label>
+                                <input type="checkbox" name="">
+                                <label>Non</label>
+                            </form>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <form action="" class="selectReorientation">
+                                    <input type="checkbox" name="">
+                                    <label>Oui</label>
+                                    <input type="checkbox" name="">
+                                    <label>Non</label>
+                                </form>
+                            </div>
+                        </div>
+>>>>>>> 424e9c4057f089234f8a1a699a419e8f193192ac
                         <div class="row pad">
                             <div class="col-lg-12">
                                 <button class="precedent pull-left">Précédent</button>
                                 <button class="suivant pull-right">Suivant</button>
                             </div>
+<<<<<<< HEAD
                         </div>
                     </li>
                                 <!-- troisième li -->
@@ -186,6 +372,74 @@
                     </li>
                 </ul>
             </div>
+=======
+                        <div class="col-lg-6">
+                            <button class="suivant1">Suivant</button>
+                        </div>
+                    </li>
+                                <!-- troisième li -->
+                    <li>
+                        <!-- Contient la troisème partie de l'inscription, contiendra: 
+                                    -La derniere partie du formulaire
+                                    -Bouton précédent pour revenir au formulaire d'avant
+                                    -Bouton valider pour l'envoie des données -->
+                    </li>
+                </ul>
+            </div>
+                <li>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2 class="formation">Formation</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 formation1">
+                            <form>
+                                <input type="checkbox" name="">
+                                <label>IT Start</label>
+                                <input type="checkbox" name="">
+                                <label>DIGISTART</label>
+                                <input type="checkbox" name="">
+                                <label>BTS SIO</label>
+                                <br>  
+                                <input type="checkbox" name="">
+                                <label>Developpeur logiciel</label>
+                                <input type="checkbox" name="">
+                                <label>Technicien supérieur en support informatique</label>
+                                <input type="checkbox" name="">
+                                <label>Responsable infrastructure système et réseaux</label>
+                                <input type="checkbox" name="">
+                                <label>WEB MASTER et DESIGNER</label>
+                                <br>  
+                                <input type="checkbox" name="">
+                                <label>Chef de projet en conception de système informatique</label>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <h2 class="imie">je connais l'imie</h2>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>    
+                    <div class="row">
+                        <div class="col-lg-12 formation1">
+                            <form>
+                                <label>comment ?</label>
+                                <input type="text" name="">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <button class="precedent1">Précédent</button>
+                        </div>
+                         <div class="col-lg-6">
+                            <button class="terminer">Terminer</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+>>>>>>> 424e9c4057f089234f8a1a699a419e8f193192ac
         </div>
     </div>
 </div>
