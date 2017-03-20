@@ -4,10 +4,8 @@ class User
 {
 
 	private $id;
-	private $nom;
-	private $prenom;
 	private $login;
-	private $password;
+	private $mdp;
 
 	public function getId() {
 		return $this->id;
@@ -15,22 +13,6 @@ class User
 
 	public function setId($id) {
 		$this->id = $id;
-	}
-
-	public function getNom() {
-		return $this->nom;
-	}
-
-	public function setNom($nom) {
-		$this->nom = $nom;
-	}
-
-	public function getPrenom() {
-		return $this->prenom;
-	}
-
-	public function setPrenom($prenom) {
-		$this->prenom = $prenom;
 	}
 
 	public function getLogin() {
@@ -42,10 +24,10 @@ class User
 	}
 
 	public function getPassword() {
-		return $this->password;
+		return $this->mdp;
 	}
 
-	public function setPassword($password) {
-		$this->password = $password;
+	public function setPassword($mdp) {
+		$this->mdp = $mdp;
 	}
 }
